@@ -1,0 +1,960 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Montserrat, sans-serif;
+    */
+}
+
+ body, html {
+	height: 100%;
+	/* font-family: Montserrat, sans-serif; */
+  font-weight: 400;
+  }  */
+ 
+/* body{
+    background-image: url(../images/icons/pattern1.png);
+    background-repeat: repeat; 
+} */
+
+
+
+#navbar{
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    padding: 0 80px;
+    height: 80px;
+    color: #0f0f0f;
+
+}
+
+/*  #navbarimg{
+    background-image: url('../images/icons/logo2.png');
+}  */
+
+.navbar-brand{
+    background-image: url('../images/icons/logo2.png');
+    width: 110px;
+    height: 50px;
+}
+
+.nav-link:hover{
+    color: red;
+
+}
+
+/* #ae1:hover{
+    color: red;
+} */
+
+
+#ButtonoSerach{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+ .wrap-menu-header{
+    border-top: 5px solid #ff040c;
+    display: block;
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+} 
+
+/* nav{
+    width: 90%;
+    position: fixed;
+    top: 25px;
+    left: 44%;
+    transform: translateX(-40%);
+    
+} */
+
+#menu{
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    width: 70%;
+    text-align: center;
+}
+
+.menuItem{
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.menuItem a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.menuItem a:hover{
+    color: red;
+}
+
+/* ....................................... */
+ 
+#banner{
+    width: 100%;
+    height: 545px;
+    background: url("../images/title3.jpg");
+    background-position: center;
+    /* display: block; */
+    
+}
+
+#banner h1{
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+    top: 60%;
+    text-align: center;
+          }
+
+#socialLinks{
+            display: inline-block;
+            position: relative;
+            color:white;
+            top: -10px;
+             width: 150px;
+             text-align:left;
+             
+          }
+.socialLinks a:hover {
+    color: red;
+    
+}
+
+/* RECIPES */
+#recipes{
+    text-align: center;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#recipesText{
+    width: 45%;
+
+}
+
+
+#recipes h2{
+    color: red;
+    font-style: italic;
+}
+
+#recipes h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+#recipesP{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+#RECIPESimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px ;
+    background-image: url('../images/our-story-01.jpg') ;
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s;
+}
+
+#RECIPESimg:hover {
+    background-size: 110%;
+    transition: all 1.5s;
+}
+
+/* ................................................................... */
+
+/* OURSTORY */
+#OURSTORY{
+    width: 100%;
+    height: 490px;
+    background-image: url("../images/icons/pattern2.png");
+    text-align: center;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#ItalianRestaurant{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+
+#OURSTORYh1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+
+#OURSTORYDIV{
+    width: 852px;
+}
+
+/* ................................................................... */
+
+/* OurVideo */
+#parallax{
+    width: 100%; height: 550px;
+    margin: 0 auto;
+    background-image: url("../images/bg-intro-02.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#parallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#playbutton{
+    width: 77px; height: 77px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#play{
+    margin-top: 28px;
+}
+
+#parallax h3{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+
+#parallax h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color:red;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 6px;
+}
+
+/* .................................................................. */
+ 
+
+#test{
+   text-align: center;
+   color: red;
+   font-size: 25px;
+   
+}
+
+
+/* RESTAURANT */
+#RESTAURANT{
+    text-align: center;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#RESTAURANTText{
+    width: 45%;
+}
+
+#RESTAURANT h2{
+    color: red;
+    font-style: italic;
+}
+
+#RESTAURANT h1{
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+#RESTAURANTP{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+#RESTAURANTimg{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px ;
+    background-image: url('../images/blog-11.jpg') ;
+    background-size: 100%;
+    background-position: center;
+    transition: all 1s;
+}
+
+#RESTAURANTimg:hover {
+    background-size: 110%;
+    transition: all 1.5s;
+}
+
+#bgforAll{
+    background-image: url("../images/icons/pattern2.png");
+}
+
+/* ................................................................. */
+
+/* parallax2 */
+#parallax2{
+    width: 100%; height: 550px;
+    margin: 0 auto;
+    background-image: url("../images/bg-intro-04.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ................................................................... */
+
+/* MeetOurCHEF */
+#MeetOurCHEF{
+    width: auto; height: 20px;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 60px ;
+    display: block;
+}
+
+#MeetOurCHEF h3{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+
+#MeetOurCHEF h1{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 8px;
+}
+
+/* ................................................................. */
+/* chifs */
+
+#chifs{
+    width: 100%;
+    height: 230px;
+   /*  margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+     transform: translateY(120px);                   /* لسه فيها شغل مهم جدا */
+} 
+
+#chif1 {
+    width: 120px; height: 120px;
+    background-image: url('../images/avatar-02.jpg');
+    background-position: center;
+    background-size: 120px;
+    border: red solid;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#chif1:hover {
+    background-size: 120%;
+    transition: all .5s;
+}
+
+#chif2{
+    width: 120px; height: 120px;
+    background-image: url('../images/avatar-03.jpg');
+    background-position: center;
+    background-size: 120px;
+    border: red solid;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#chif2:hover {
+    background-size: 120%;
+    transition: all .5s;
+}
+
+#chif3{
+    width: 120px; height: 120px;
+    background-image: url('../images/avatar-05.jpg');
+    background-position: center;
+    background-size: 120px;
+    border: red solid;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+#chif3:hover {
+    background-size: 120%;
+    transition: all .5s;
+}
+
+/* ...... ! */
+
+#aboutChifs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 390px;
+
+}
+
+#aboutChifs div{
+    width: 350px; 
+    height: 350px;
+    text-align: center;
+    border: rgb(192, 176, 176) solid;
+    border-radius: 2%;
+    padding: 50px;
+    padding-top: 100px;
+
+}
+
+#aboutChifs h3{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px;
+}
+
+#aboutChifs p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+/* .................................................................... */
+
+/* Sign-Up */
+#signUp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/icons/pattern2.png);
+    margin-top: 100px;
+
+
+}
+
+#signUp h2{
+    margin-right: 20px;
+    /* font-family: Montserrat; */
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+
+}
+
+#signUp button{
+    height: 45px;
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+    background: black;
+    transition: all 0.9s ease-in;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#signUp button:hover{
+    background-color: red;
+    transition: all 0.9s ease-in;
+}
+
+#inputTxet input{
+    border: none;
+    font-size: 24px;
+}
+
+
+#inputTxet input:focus{
+    outline: none;
+}
+
+#inputTxet{
+    border: thin #666666 solid;
+    display: flex;
+    align-content: center;
+    /* padding: 7px; */
+    justify-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#inputTxet i{
+    font-size: 24px;
+    margin-left: 20px;
+    display: flex;
+    line-height: 48px;
+
+
+}
+
+/* ...................................................................... */
+/* about Gallary and his friends */
+
+#ALL5{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* ......... الجزء الى فوق يشمل ال3 الى تحت ..............*/
+
+/* CONTACTUS */
+#CONTACTUS{
+    width: 25%;
+}
+
+
+#CONTACTUS h3{
+    color: whitesmoke;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#CONTACTUS P{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+}
+
+/* .............................................. */
+/* LATESTTWITTER */
+
+#LATESTTWITTER{
+    width: 25%;
+}
+
+#LATESTTWITTER h3{
+    color: whitesmoke;
+
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#LATESTTWITTER p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+}
+
+/* .............................................. */
+/* GALLERY */
+#GALLERY{
+    width: 38%;
+}
+
+
+/* #GALLERY:hover{
+    background-color: rgba(255,0, 0, 0.7);
+} */
+
+
+#GALLERY h2{
+
+    color: whitesmoke;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#img1{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-01.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+/* #img1:hover{
+    background-color: red;
+    transition: 1s;
+} */
+
+/* #GALLERY img:hover{
+    background-color: red;
+    transition: 1s;
+} */
+
+#img2{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-02.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img3{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-03.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img4{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-04.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img555{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img5{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-05.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img6{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-06.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img7{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-07.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img8{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-08.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img666{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img9{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-09.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img10{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-10.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img11{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-11.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img12{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/photo-gallery-12.jpg');
+    background-position: center;
+    background-size: 100px;
+}
+
+#img777{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#h222{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* ............................... */
+
+
+#finish{
+     width: 100%; 
+    height: 50px;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#finish p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.7;
+}
+
+/* #lastawesome:hover{
+    color: red;
+} */
+
+#ae1:hover{
+    color: red;
+}
+
+#ae2:hover{
+    color: red;     /* لو شيلنا اللون الرمادى من اللوجهات الخاصيه دى بتشتغل */
+}
+
+#ae3:hover{
+    color: red;
+}
+
+/* الحمد لله جبرت */
+
+/*........................................................................................ */
+
+@media (min-width: 460px) {
+   #OURSTORYDIV{
+       width: 75%;
+   }
+
+   #signUp{
+       margin-top: 750px;
+   }
+
+   #finish{
+       margin-top: 20px;
+       height: auto;
+   }
+
+   #ppp{
+       text-align: center;
+       padding: 10px;
+   }
+
+   #lastawesome{
+       padding-top: 5px;
+   }
+
+   #ALL5{
+       height: auto;
+   }
+
+   #LATESTTWITTER{
+       margin-right: 0px;
+       margin-top: 50px;
+   }
+
+   #CONTACTUS{
+       position: relative; 
+       margin-right: 45px ;
+   }
+
+}
+
+@media (min-width: 576px) {
+    #OURSTORYDIV{
+        width: 75%;
+    }
+ 
+    #signUp{
+        margin-top: 750px;
+    }
+ 
+    #finish{
+        margin-top: 20px;
+        height: auto;
+    }
+ 
+    #ppp{
+        text-align: center;
+        padding: 10px;
+    }
+ 
+    #lastawesome{
+        padding-top: 5px;
+    }
+ 
+    #ALL5{
+        height: auto;
+    }
+ 
+    #LATESTTWITTER{
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+ 
+    #CONTACTUS{
+        position: relative; 
+        margin-right: 45px ;
+    }
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+          
+
+   
+         
+
+
+         
+
+          
+          
+          
